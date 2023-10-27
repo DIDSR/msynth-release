@@ -1,0 +1,11 @@
+code/.ipynb_checkpoints/
+code/util/.ipynb_checkpoints/
+code/util/__pycache__/
+*.Rhistory
+
+
+data/
+output/
+
+.ipynb_checkpoints/
+.idea/
