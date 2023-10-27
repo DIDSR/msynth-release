@@ -19,7 +19,8 @@ The contributions of our work are:
 1. Dataset
 2. Code
 3. Citation
-4. Disclaimer
+4. Related Links
+5. Disclaimer
 
 ## Dataset
 M-SYNTH is a synthetic digital mammography (DM) dataset with four breast fibroglandular density distributions imaged using Monte Carlo x-ray simulations with the publicly available [Virtual Imaging Clinical Trial for Regulatory Evaluation (VICTRE)](https://github.com/DIDSR/VICTRE) toolkit. The dataset has the following characteristics:
