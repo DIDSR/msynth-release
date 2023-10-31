@@ -51,7 +51,7 @@ Dataset is hosted on huggingface and can be downloaded at: [https://huggingface.
   author={Sizikova, Elena and Saharkhiz, Niloufar and Sharma, Diksha and Lago, Miguel and Sahiner, Berkman and Delfino, Jana G. and Badano, Aldo},
   journal={Advances in Neural Information Processing Systems},
   volume={},
-  pages={16764--16778},
+  pages={},
   year={2023}
 }
 ```
