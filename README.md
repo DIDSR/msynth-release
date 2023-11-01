@@ -8,6 +8,8 @@
 
 NeurIPS Datasets and Benchmarks Track 2023. 
 
+**Paper Link**: [https://arxiv.org/pdf/2310.18494.pdf](https://arxiv.org/pdf/2310.18494.pdf)
+
 ![overview](images/overview.png)
 
 The contributions of our work are:
