@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>DIDSR DEMO</title>
+    <!-- <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="color-scheme" content="light dark" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/datatables/datatables.min.js" referrerpolicy="origin"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/marked.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="js/datatables/datatables.min.css">
+    <link rel="stylesheet" href="css/fancybox.css" />
+</head>
+
+<body id="consult-body">
+    <h1><span class="title"></span></h1>
+    <ul class="tabs">
+        <li content="description" class="active">Description</li>
+        <li content="demo">Demo</li>
+    </ul>
+    <div class="content" content="description"></div>
+    <div class="content" content="demo">
+        <p>This is a sample of 100 images from the <span class="title"></span> database. References: <span
+                id="references"></span></p>
+        <table id="data-table">
+            <thead>
+                <tr>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>

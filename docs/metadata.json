@@ -1,0 +1,726 @@
+{
+  "title":"M-SYNTH",
+  "columns": [
+    "Patient ID",
+    "Breast Density",
+    "Lesion Size",
+    "Dose",
+    "View"
+  ],
+  "references":[
+    {
+      "title":"[paper]",
+      "url":"https://arxiv.org/abs/2310.18494"
+    },
+    {
+      "title":"[data]",
+      "url":"https://huggingface.co/datasets/didsr/msynth"
+    },
+    {
+      "title":"[code]",
+      "url":"https://github.com/DIDSR/msynth-release/"
+    }
+  ],
+  "images": [
+    {
+      "patient_id": 141,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 12200000000.0,
+      "filename": "P141_Dscattered_L9.0_X1.22e10.jpg"
+    },
+    {
+      "patient_id": 264,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 8670000000.0,
+      "filename": "P264_Ddense_L7.0_X8.67e09.jpg"
+    },
+    {
+      "patient_id": 205,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 8160000000.0,
+      "filename": "P205_Dhetero_L7.0_X8.16e09.jpg"
+    },
+    {
+      "patient_id": 61,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 22200000000.0,
+      "filename": "P61_Dfatty_L9.0_X2.22e10.jpg"
+    },
+    {
+      "patient_id": 162,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 12200000000.0,
+      "filename": "P162_Dscattered_L9.0_X1.22e10.jpg"
+    },
+    {
+      "patient_id": 198,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 5200000000.0,
+      "filename": "P198_Ddense_L5.0_X5.20e09.jpg"
+    },
+    {
+      "patient_id": 33,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 13300000000.0,
+      "filename": "P33_Dfatty_L5.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 152,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 17800000000.0,
+      "filename": "P152_Dfatty_L9.0_X1.78e10.jpg"
+    },
+    {
+      "patient_id": 148,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 4080000000.0,
+      "filename": "P148_Dhetero_L5.0_X4.08e09.jpg"
+    },
+    {
+      "patient_id": 268,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 8880000000.0,
+      "filename": "P268_Dfatty_L7.0_X8.88e09.jpg"
+    },
+    {
+      "patient_id": 235,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 17800000000.0,
+      "filename": "P235_Dfatty_L9.0_X1.78e10.jpg"
+    },
+    {
+      "patient_id": 274,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 4440000000.0,
+      "filename": "P274_Dfatty_L9.0_X4.44e09.jpg"
+    },
+    {
+      "patient_id": 268,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 6940000000.0,
+      "filename": "P268_Ddense_L5.0_X6.94e09.jpg"
+    },
+    {
+      "patient_id": 66,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 10200000000.0,
+      "filename": "P66_Dhetero_L5.0_X1.02e10.jpg"
+    },
+    {
+      "patient_id": 47,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 13300000000.0,
+      "filename": "P47_Dfatty_L5.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 178,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 12200000000.0,
+      "filename": "P178_Dscattered_L9.0_X1.22e10.jpg"
+    },
+    {
+      "patient_id": 212,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 17800000000.0,
+      "filename": "P212_Dfatty_L5.0_X1.78e10.jpg"
+    },
+    {
+      "patient_id": 54,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 8160000000.0,
+      "filename": "P54_Dhetero_L7.0_X8.16e09.jpg"
+    },
+    {
+      "patient_id": 169,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 3470000000.0,
+      "filename": "P169_Ddense_L7.0_X3.47e09.jpg"
+    },
+    {
+      "patient_id": 106,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 8160000000.0,
+      "filename": "P106_Dhetero_L7.0_X8.16e09.jpg"
+    },
+    {
+      "patient_id": 194,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 6120000000.0,
+      "filename": "P194_Dhetero_L5.0_X6.12e09.jpg"
+    },
+    {
+      "patient_id": 40,
+      "breast_density": "scattered",
+      "lesion_size": 7.0,
+      "dose": 20400000000.0,
+      "filename": "P40_Dscattered_L7.0_X2.04e10.jpg"
+    },
+    {
+      "patient_id": 149,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 17800000000.0,
+      "filename": "P149_Dfatty_L9.0_X1.78e10.jpg"
+    },
+    {
+      "patient_id": 208,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 3470000000.0,
+      "filename": "P208_Ddense_L7.0_X3.47e09.jpg"
+    },
+    {
+      "patient_id": 68,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 2040000000.0,
+      "filename": "P68_Dhetero_L7.0_X2.04e09.jpg"
+    },
+    {
+      "patient_id": 28,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 1730000000.0,
+      "filename": "P28_Ddense_L5.0_X1.73e09.jpg"
+    },
+    {
+      "patient_id": 100,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 4080000000.0,
+      "filename": "P100_Dhetero_L7.0_X4.08e09.jpg"
+    },
+    {
+      "patient_id": 130,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 8880000000.0,
+      "filename": "P130_Dfatty_L7.0_X8.88e09.jpg"
+    },
+    {
+      "patient_id": 133,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 4440000000.0,
+      "filename": "P133_Dfatty_L5.0_X4.44e09.jpg"
+    },
+    {
+      "patient_id": 190,
+      "breast_density": "scattered",
+      "lesion_size": 7.0,
+      "dose": 16300000000.0,
+      "filename": "P190_Dscattered_L7.0_X1.63e10.jpg"
+    },
+    {
+      "patient_id": 243,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 6120000000.0,
+      "filename": "P243_Dhetero_L7.0_X6.12e09.jpg"
+    },
+    {
+      "patient_id": 72,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 3470000000.0,
+      "filename": "P72_Ddense_L7.0_X3.47e09.jpg"
+    },
+    {
+      "patient_id": 132,
+      "breast_density": "scattered",
+      "lesion_size": 5.0,
+      "dose": 20400000000.0,
+      "filename": "P132_Dscattered_L5.0_X2.04e10.jpg"
+    },
+    {
+      "patient_id": 1,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 4440000000.0,
+      "filename": "P1_Dfatty_L7.0_X4.44e09.jpg"
+    },
+    {
+      "patient_id": 229,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 13300000000.0,
+      "filename": "P229_Dfatty_L5.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 52,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 4080000000.0,
+      "filename": "P52_Dhetero_L5.0_X4.08e09.jpg"
+    },
+    {
+      "patient_id": 249,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 1730000000.0,
+      "filename": "P249_Ddense_L7.0_X1.73e09.jpg"
+    },
+    {
+      "patient_id": 160,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 4440000000.0,
+      "filename": "P160_Dfatty_L5.0_X4.44e09.jpg"
+    },
+    {
+      "patient_id": 148,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 12200000000.0,
+      "filename": "P148_Dscattered_L9.0_X1.22e10.jpg"
+    },
+    {
+      "patient_id": 60,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 1730000000.0,
+      "filename": "P60_Ddense_L5.0_X1.73e09.jpg"
+    },
+    {
+      "patient_id": 103,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 3470000000.0,
+      "filename": "P103_Ddense_L5.0_X3.47e09.jpg"
+    },
+    {
+      "patient_id": 28,
+      "breast_density": "scattered",
+      "lesion_size": 7.0,
+      "dose": 20400000000.0,
+      "filename": "P28_Dscattered_L7.0_X2.04e10.jpg"
+    },
+    {
+      "patient_id": 92,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 10200000000.0,
+      "filename": "P92_Dhetero_L7.0_X1.02e10.jpg"
+    },
+    {
+      "patient_id": 169,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 6120000000.0,
+      "filename": "P169_Dhetero_L5.0_X6.12e09.jpg"
+    },
+    {
+      "patient_id": 262,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 8670000000.0,
+      "filename": "P262_Ddense_L7.0_X8.67e09.jpg"
+    },
+    {
+      "patient_id": 114,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 8160000000.0,
+      "filename": "P114_Dhetero_L5.0_X8.16e09.jpg"
+    },
+    {
+      "patient_id": 244,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 4440000000.0,
+      "filename": "P244_Dfatty_L7.0_X4.44e09.jpg"
+    },
+    {
+      "patient_id": 180,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 3470000000.0,
+      "filename": "P180_Ddense_L7.0_X3.47e09.jpg"
+    },
+    {
+      "patient_id": 101,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 10200000000.0,
+      "filename": "P101_Dhetero_L5.0_X1.02e10.jpg"
+    },
+    {
+      "patient_id": 292,
+      "breast_density": "scattered",
+      "lesion_size": 7.0,
+      "dose": 16300000000.0,
+      "filename": "P292_Dscattered_L7.0_X1.63e10.jpg"
+    },
+    {
+      "patient_id": 73,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 4440000000.0,
+      "filename": "P73_Dfatty_L9.0_X4.44e09.jpg"
+    },
+    {
+      "patient_id": 8,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 13300000000.0,
+      "filename": "P8_Dfatty_L5.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 48,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 6940000000.0,
+      "filename": "P48_Ddense_L7.0_X6.94e09.jpg"
+    },
+    {
+      "patient_id": 112,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 6940000000.0,
+      "filename": "P112_Ddense_L5.0_X6.94e09.jpg"
+    },
+    {
+      "patient_id": 188,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 8670000000.0,
+      "filename": "P188_Ddense_L7.0_X8.67e09.jpg"
+    },
+    {
+      "patient_id": 131,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 8160000000.0,
+      "filename": "P131_Dhetero_L5.0_X8.16e09.jpg"
+    },
+    {
+      "patient_id": 176,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 13300000000.0,
+      "filename": "P176_Dfatty_L9.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 5,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 13300000000.0,
+      "filename": "P5_Dfatty_L9.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 140,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 6940000000.0,
+      "filename": "P140_Ddense_L5.0_X6.94e09.jpg"
+    },
+    {
+      "patient_id": 7,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 6940000000.0,
+      "filename": "P7_Ddense_L5.0_X6.94e09.jpg"
+    },
+    {
+      "patient_id": 179,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 13300000000.0,
+      "filename": "P179_Dfatty_L7.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 150,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 13300000000.0,
+      "filename": "P150_Dfatty_L5.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 161,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 2040000000.0,
+      "filename": "P161_Dhetero_L7.0_X2.04e09.jpg"
+    },
+    {
+      "patient_id": 167,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 8670000000.0,
+      "filename": "P167_Ddense_L7.0_X8.67e09.jpg"
+    },
+    {
+      "patient_id": 243,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 5200000000.0,
+      "filename": "P243_Ddense_L7.0_X5.20e09.jpg"
+    },
+    {
+      "patient_id": 166,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 5200000000.0,
+      "filename": "P166_Ddense_L7.0_X5.20e09.jpg"
+    },
+    {
+      "patient_id": 152,
+      "breast_density": "scattered",
+      "lesion_size": 7.0,
+      "dose": 12200000000.0,
+      "filename": "P152_Dscattered_L7.0_X1.22e10.jpg"
+    },
+    {
+      "patient_id": 52,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 2040000000.0,
+      "filename": "P52_Dhetero_L7.0_X2.04e09.jpg"
+    },
+    {
+      "patient_id": 249,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 16300000000.0,
+      "filename": "P249_Dscattered_L9.0_X1.63e10.jpg"
+    },
+    {
+      "patient_id": 138,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 20400000000.0,
+      "filename": "P138_Dscattered_L9.0_X2.04e10.jpg"
+    },
+    {
+      "patient_id": 215,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 13300000000.0,
+      "filename": "P215_Dfatty_L7.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 34,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 13300000000.0,
+      "filename": "P34_Dfatty_L5.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 157,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 5200000000.0,
+      "filename": "P157_Ddense_L5.0_X5.20e09.jpg"
+    },
+    {
+      "patient_id": 85,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 12200000000.0,
+      "filename": "P85_Dscattered_L9.0_X1.22e10.jpg"
+    },
+    {
+      "patient_id": 166,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 8880000000.0,
+      "filename": "P166_Dfatty_L9.0_X8.88e09.jpg"
+    },
+    {
+      "patient_id": 162,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 8160000000.0,
+      "filename": "P162_Dscattered_L9.0_X8.16e09.jpg"
+    },
+    {
+      "patient_id": 10,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 8670000000.0,
+      "filename": "P10_Ddense_L5.0_X8.67e09.jpg"
+    },
+    {
+      "patient_id": 55,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 10200000000.0,
+      "filename": "P55_Dhetero_L5.0_X1.02e10.jpg"
+    },
+    {
+      "patient_id": 97,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 4440000000.0,
+      "filename": "P97_Dfatty_L7.0_X4.44e09.jpg"
+    },
+    {
+      "patient_id": 92,
+      "breast_density": "hetero",
+      "lesion_size": 5.0,
+      "dose": 2040000000.0,
+      "filename": "P92_Dhetero_L5.0_X2.04e09.jpg"
+    },
+    {
+      "patient_id": 177,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 6940000000.0,
+      "filename": "P177_Ddense_L7.0_X6.94e09.jpg"
+    },
+    {
+      "patient_id": 31,
+      "breast_density": "scattered",
+      "lesion_size": 5.0,
+      "dose": 4080000000.0,
+      "filename": "P31_Dscattered_L5.0_X4.08e09.jpg"
+    },
+    {
+      "patient_id": 194,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 13300000000.0,
+      "filename": "P194_Dfatty_L7.0_X1.33e10.jpg"
+    },
+    {
+      "patient_id": 145,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 1730000000.0,
+      "filename": "P145_Ddense_L5.0_X1.73e09.jpg"
+    },
+    {
+      "patient_id": 262,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 3470000000.0,
+      "filename": "P262_Ddense_L7.0_X3.47e09.jpg"
+    },
+    {
+      "patient_id": 245,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 16300000000.0,
+      "filename": "P245_Dscattered_L9.0_X1.63e10.jpg"
+    },
+    {
+      "patient_id": 19,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 5200000000.0,
+      "filename": "P19_Ddense_L7.0_X5.20e09.jpg"
+    },
+    {
+      "patient_id": 278,
+      "breast_density": "hetero",
+      "lesion_size": 7.0,
+      "dose": 10200000000.0,
+      "filename": "P278_Dhetero_L7.0_X1.02e10.jpg"
+    },
+    {
+      "patient_id": 81,
+      "breast_density": "scattered",
+      "lesion_size": 5.0,
+      "dose": 12200000000.0,
+      "filename": "P81_Dscattered_L5.0_X1.22e10.jpg"
+    },
+    {
+      "patient_id": 240,
+      "breast_density": "dense",
+      "lesion_size": 7.0,
+      "dose": 3470000000.0,
+      "filename": "P240_Ddense_L7.0_X3.47e09.jpg"
+    },
+    {
+      "patient_id": 33,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 22200000000.0,
+      "filename": "P33_Dfatty_L9.0_X2.22e10.jpg"
+    },
+    {
+      "patient_id": 17,
+      "breast_density": "scattered",
+      "lesion_size": 9.0,
+      "dose": 20400000000.0,
+      "filename": "P17_Dscattered_L9.0_X2.04e10.jpg"
+    },
+    {
+      "patient_id": 285,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 6940000000.0,
+      "filename": "P285_Ddense_L5.0_X6.94e09.jpg"
+    },
+    {
+      "patient_id": 88,
+      "breast_density": "fatty",
+      "lesion_size": 5.0,
+      "dose": 22200000000.0,
+      "filename": "P88_Dfatty_L5.0_X2.22e10.jpg"
+    },
+    {
+      "patient_id": 50,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 4440000000.0,
+      "filename": "P50_Dfatty_L7.0_X4.44e09.jpg"
+    },
+    {
+      "patient_id": 115,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 4440000000.0,
+      "filename": "P115_Dfatty_L9.0_X4.44e09.jpg"
+    },
+    {
+      "patient_id": 189,
+      "breast_density": "fatty",
+      "lesion_size": 7.0,
+      "dose": 8880000000.0,
+      "filename": "P189_Dfatty_L7.0_X8.88e09.jpg"
+    },
+    {
+      "patient_id": 246,
+      "breast_density": "dense",
+      "lesion_size": 5.0,
+      "dose": 6940000000.0,
+      "filename": "P246_Ddense_L5.0_X6.94e09.jpg"
+    },
+    {
+      "patient_id": 69,
+      "breast_density": "fatty",
+      "lesion_size": 9.0,
+      "dose": 17800000000.0,
+      "filename": "P69_Dfatty_L9.0_X1.78e10.jpg"
+    },
+    {
+      "patient_id": 283,
+      "breast_density": "scattered",
+      "lesion_size": 5.0,
+      "dose": 20400000000.0,
+      "filename": "P283_Dscattered_L5.0_X2.04e10.jpg"
+    }
+  ]
+}
